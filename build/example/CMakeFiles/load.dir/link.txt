@@ -1,0 +1,1 @@
+/usr/bin/g++  -g   CMakeFiles/load.dir/loadConfig.cc.o  -o ../../example/bin/load   -L/home/kiqsont/program/rpc/tinyRPC/tinyWebLib/lib  -Wl,-rpath,/home/kiqsont/program/rpc/tinyRPC/tinyWebLib/lib:/home/kiqsont/program/rpc/tinyRPC/lib ../../lib/libtinyRPC.so -ltinyWebLib -lasyncLogger -lprotobuf -lzookeeper_mt -lpthread 

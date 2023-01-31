@@ -1,0 +1,31 @@
+syntax = "proto3";
+package protoTest2;
+option cc_generic_services = true;
+
+message GetFriendsRequest
+{
+    uint32 uid = 1;
+}
+
+message User
+{
+	bytes name = 1;
+	uint32 uid = 2;
+	enum Sex
+	{
+		MALE = 0;
+		FEMALE = 1;
+	}
+	Sex sex = 3;
+}
+
+message GetFriendsResponse
+{
+    repeated User friends = 1;
+}
+
+service FriendsServiceRPC
+{
+    rpc GetFriends(GetFriendsRequest) returns (GetFriendsResponse);
+
+}

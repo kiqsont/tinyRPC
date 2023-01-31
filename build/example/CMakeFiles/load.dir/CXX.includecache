@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Application.h
+tinyRpcConfig.h
+../include/tinyRpcConfig.h
+
+../include/tinyRpcConfig.h
+unordered_map
+-
+string
+-
+string_view
+-
+
+/home/kiqsont/program/rpc/tinyRPC/example/loadConfig.cc
+Application.h
+/home/kiqsont/program/rpc/tinyRPC/example/Application.h
+iostream
+-
+

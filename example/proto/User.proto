@@ -1,0 +1,47 @@
+syntax = "proto3";
+package protoTest1;
+option cc_generic_services = true;
+
+message LoginRequest
+{
+    bytes username = 1;
+	bytes password = 2;
+}
+
+message LoginResponse
+{
+    bool success = 1;
+	ErrInfo errInfo = 2;
+}
+message ErrInfo
+{
+	int32 code = 1;
+	string errmsg = 2;
+}
+
+message RegisterRequest
+{
+	bytes username = 1;
+	bytes password = 2;
+	bytes email = 3;
+	enum Sex
+	{
+		MALE = 0;
+		FEMALE = 1;
+	}
+	Sex sex = 4;
+	uint32 age = 5;
+}
+
+message RegisterResponse
+{
+	bool success = 1;
+	ErrInfo errInfo = 2;
+	uint32 uid = 3;
+}
+
+service UserServiceRPC
+{
+    rpc Login(LoginRequest) returns (LoginResponse);
+	rpc Register(RegisterRequest) returns (RegisterResponse);
+}

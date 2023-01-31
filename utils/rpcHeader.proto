@@ -1,0 +1,11 @@
+syntax = "proto3";
+package tinyRpc;
+
+// header_size + rpcHeader + args_str
+
+message RpcHeader
+{
+    bytes service_name = 1;
+    bytes method_name = 2;
+    uint32 args_size = 3;
+}

@@ -1,0 +1,87 @@
+[
+{
+  "directory": "/home/kiqsont/program/rpc/tinyRPC/build",
+  "command": "/usr/bin/g++  -DtinyRPC_EXPORTS -I/home/kiqsont/program/rpc/tinyRPC/include -I/home/kiqsont/program/rpc/tinyRPC/tinyWebLib/include  -g -fPIC   -std=gnu++17 -o CMakeFiles/tinyRPC.dir/src/Application.cc.o -c /home/kiqsont/program/rpc/tinyRPC/src/Application.cc",
+  "file": "/home/kiqsont/program/rpc/tinyRPC/src/Application.cc"
+},
+{
+  "directory": "/home/kiqsont/program/rpc/tinyRPC/build",
+  "command": "/usr/bin/g++  -DtinyRPC_EXPORTS -I/home/kiqsont/program/rpc/tinyRPC/include -I/home/kiqsont/program/rpc/tinyRPC/tinyWebLib/include  -g -fPIC   -std=gnu++17 -o CMakeFiles/tinyRPC.dir/src/Linker.cc.o -c /home/kiqsont/program/rpc/tinyRPC/src/Linker.cc",
+  "file": "/home/kiqsont/program/rpc/tinyRPC/src/Linker.cc"
+},
+{
+  "directory": "/home/kiqsont/program/rpc/tinyRPC/build",
+  "command": "/usr/bin/g++  -DtinyRPC_EXPORTS -I/home/kiqsont/program/rpc/tinyRPC/include -I/home/kiqsont/program/rpc/tinyRPC/tinyWebLib/include  -g -fPIC   -std=gnu++17 -o CMakeFiles/tinyRPC.dir/src/Provider.cc.o -c /home/kiqsont/program/rpc/tinyRPC/src/Provider.cc",
+  "file": "/home/kiqsont/program/rpc/tinyRPC/src/Provider.cc"
+},
+{
+  "directory": "/home/kiqsont/program/rpc/tinyRPC/build",
+  "command": "/usr/bin/g++  -DtinyRPC_EXPORTS -I/home/kiqsont/program/rpc/tinyRPC/include -I/home/kiqsont/program/rpc/tinyRPC/tinyWebLib/include  -g -fPIC   -std=gnu++17 -o CMakeFiles/tinyRPC.dir/src/rpcHeader.pb.cc.o -c /home/kiqsont/program/rpc/tinyRPC/src/rpcHeader.pb.cc",
+  "file": "/home/kiqsont/program/rpc/tinyRPC/src/rpcHeader.pb.cc"
+},
+{
+  "directory": "/home/kiqsont/program/rpc/tinyRPC/build",
+  "command": "/usr/bin/g++  -DtinyRPC_EXPORTS -I/home/kiqsont/program/rpc/tinyRPC/include -I/home/kiqsont/program/rpc/tinyRPC/tinyWebLib/include  -g -fPIC   -std=gnu++17 -o CMakeFiles/tinyRPC.dir/src/tinyRpcChannel.cc.o -c /home/kiqsont/program/rpc/tinyRPC/src/tinyRpcChannel.cc",
+  "file": "/home/kiqsont/program/rpc/tinyRPC/src/tinyRpcChannel.cc"
+},
+{
+  "directory": "/home/kiqsont/program/rpc/tinyRPC/build",
+  "command": "/usr/bin/g++  -DtinyRPC_EXPORTS -I/home/kiqsont/program/rpc/tinyRPC/include -I/home/kiqsont/program/rpc/tinyRPC/tinyWebLib/include  -g -fPIC   -std=gnu++17 -o CMakeFiles/tinyRPC.dir/src/tinyRpcConfig.cc.o -c /home/kiqsont/program/rpc/tinyRPC/src/tinyRpcConfig.cc",
+  "file": "/home/kiqsont/program/rpc/tinyRPC/src/tinyRpcConfig.cc"
+},
+{
+  "directory": "/home/kiqsont/program/rpc/tinyRPC/build",
+  "command": "/usr/bin/g++  -DtinyRPC_EXPORTS -I/home/kiqsont/program/rpc/tinyRPC/include -I/home/kiqsont/program/rpc/tinyRPC/tinyWebLib/include  -g -fPIC   -std=gnu++17 -o CMakeFiles/tinyRPC.dir/src/tinyRpcController.cc.o -c /home/kiqsont/program/rpc/tinyRPC/src/tinyRpcController.cc",
+  "file": "/home/kiqsont/program/rpc/tinyRPC/src/tinyRpcController.cc"
+},
+{
+  "directory": "/home/kiqsont/program/rpc/tinyRPC/build",
+  "command": "/usr/bin/g++  -DtinyRPC_EXPORTS -I/home/kiqsont/program/rpc/tinyRPC/include -I/home/kiqsont/program/rpc/tinyRPC/tinyWebLib/include  -g -fPIC   -std=gnu++17 -o CMakeFiles/tinyRPC.dir/src/tinyRpcZookeeperCli.cc.o -c /home/kiqsont/program/rpc/tinyRPC/src/tinyRpcZookeeperCli.cc",
+  "file": "/home/kiqsont/program/rpc/tinyRPC/src/tinyRpcZookeeperCli.cc"
+},
+{
+  "directory": "/home/kiqsont/program/rpc/tinyRPC/build/example",
+  "command": "/usr/bin/g++   -I/home/kiqsont/program/rpc/tinyRPC/include -I/home/kiqsont/program/rpc/tinyRPC/tinyWebLib/include  -g   -std=gnu++17 -o CMakeFiles/caller2.dir/callerFriends.cc.o -c /home/kiqsont/program/rpc/tinyRPC/example/callerFriends.cc",
+  "file": "/home/kiqsont/program/rpc/tinyRPC/example/callerFriends.cc"
+},
+{
+  "directory": "/home/kiqsont/program/rpc/tinyRPC/build/example",
+  "command": "/usr/bin/g++   -I/home/kiqsont/program/rpc/tinyRPC/include -I/home/kiqsont/program/rpc/tinyRPC/tinyWebLib/include  -g   -std=gnu++17 -o CMakeFiles/caller2.dir/proto/Friends.pb.cc.o -c /home/kiqsont/program/rpc/tinyRPC/example/proto/Friends.pb.cc",
+  "file": "/home/kiqsont/program/rpc/tinyRPC/example/proto/Friends.pb.cc"
+},
+{
+  "directory": "/home/kiqsont/program/rpc/tinyRPC/build/example",
+  "command": "/usr/bin/g++   -I/home/kiqsont/program/rpc/tinyRPC/include -I/home/kiqsont/program/rpc/tinyRPC/tinyWebLib/include  -g   -std=gnu++17 -o CMakeFiles/load.dir/loadConfig.cc.o -c /home/kiqsont/program/rpc/tinyRPC/example/loadConfig.cc",
+  "file": "/home/kiqsont/program/rpc/tinyRPC/example/loadConfig.cc"
+},
+{
+  "directory": "/home/kiqsont/program/rpc/tinyRPC/build/example",
+  "command": "/usr/bin/g++   -I/home/kiqsont/program/rpc/tinyRPC/include -I/home/kiqsont/program/rpc/tinyRPC/tinyWebLib/include  -g   -std=gnu++17 -o CMakeFiles/callee2.dir/calleeFriends.cc.o -c /home/kiqsont/program/rpc/tinyRPC/example/calleeFriends.cc",
+  "file": "/home/kiqsont/program/rpc/tinyRPC/example/calleeFriends.cc"
+},
+{
+  "directory": "/home/kiqsont/program/rpc/tinyRPC/build/example",
+  "command": "/usr/bin/g++   -I/home/kiqsont/program/rpc/tinyRPC/include -I/home/kiqsont/program/rpc/tinyRPC/tinyWebLib/include  -g   -std=gnu++17 -o CMakeFiles/callee2.dir/proto/Friends.pb.cc.o -c /home/kiqsont/program/rpc/tinyRPC/example/proto/Friends.pb.cc",
+  "file": "/home/kiqsont/program/rpc/tinyRPC/example/proto/Friends.pb.cc"
+},
+{
+  "directory": "/home/kiqsont/program/rpc/tinyRPC/build/example",
+  "command": "/usr/bin/g++   -I/home/kiqsont/program/rpc/tinyRPC/include -I/home/kiqsont/program/rpc/tinyRPC/tinyWebLib/include  -g   -std=gnu++17 -o CMakeFiles/caller1.dir/callerUser.cc.o -c /home/kiqsont/program/rpc/tinyRPC/example/callerUser.cc",
+  "file": "/home/kiqsont/program/rpc/tinyRPC/example/callerUser.cc"
+},
+{
+  "directory": "/home/kiqsont/program/rpc/tinyRPC/build/example",
+  "command": "/usr/bin/g++   -I/home/kiqsont/program/rpc/tinyRPC/include -I/home/kiqsont/program/rpc/tinyRPC/tinyWebLib/include  -g   -std=gnu++17 -o CMakeFiles/caller1.dir/proto/User.pb.cc.o -c /home/kiqsont/program/rpc/tinyRPC/example/proto/User.pb.cc",
+  "file": "/home/kiqsont/program/rpc/tinyRPC/example/proto/User.pb.cc"
+},
+{
+  "directory": "/home/kiqsont/program/rpc/tinyRPC/build/example",
+  "command": "/usr/bin/g++   -I/home/kiqsont/program/rpc/tinyRPC/include -I/home/kiqsont/program/rpc/tinyRPC/tinyWebLib/include  -g   -std=gnu++17 -o CMakeFiles/callee1.dir/calleeUser.cc.o -c /home/kiqsont/program/rpc/tinyRPC/example/calleeUser.cc",
+  "file": "/home/kiqsont/program/rpc/tinyRPC/example/calleeUser.cc"
+},
+{
+  "directory": "/home/kiqsont/program/rpc/tinyRPC/build/example",
+  "command": "/usr/bin/g++   -I/home/kiqsont/program/rpc/tinyRPC/include -I/home/kiqsont/program/rpc/tinyRPC/tinyWebLib/include  -g   -std=gnu++17 -o CMakeFiles/callee1.dir/proto/User.pb.cc.o -c /home/kiqsont/program/rpc/tinyRPC/example/proto/User.pb.cc",
+  "file": "/home/kiqsont/program/rpc/tinyRPC/example/proto/User.pb.cc"
+}
+]
