@@ -1,1 +1,0 @@
-/usr/bin/g++  -g   CMakeFiles/callee1.dir/calleeUser.cc.o CMakeFiles/callee1.dir/proto/User.pb.cc.o  -o ../../example/bin/callee1   -L/home/kiqsont/program/rpc/tinyRPC/tinyWebLib/lib  -Wl,-rpath,/home/kiqsont/program/rpc/tinyRPC/tinyWebLib/lib:/home/kiqsont/program/rpc/tinyRPC/lib ../../lib/libtinyRPC.so -lprotobuf -ltinyWebLib -lasyncLogger -lprotobuf -lzookeeper_mt -lpthread 
