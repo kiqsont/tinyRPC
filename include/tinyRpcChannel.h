@@ -21,8 +21,8 @@ namespace tinyRpc
                    google::protobuf::RpcController *controller, const google::protobuf::Message *request,
                    google::protobuf::Message *response, google::protobuf::Closure *done) override;
 
-        void sendBlock(const std::string &send_rpc_str, google::protobuf::Message *response, google::protobuf::RpcController *controller);
-        void sendInLoop(const std::string &send_rpc_str, google::protobuf::Message *response, google::protobuf::RpcController *controller);
+        void sendBlock(const std::string& method_path, const std::string &send_rpc_str, google::protobuf::Message *response, google::protobuf::RpcController *controller);
+        void sendInLoop(const std::string &method_path, const std::string &send_rpc_str, google::protobuf::Message *response, google::protobuf::RpcController *controller);
         int connectBlock(const InetAddress &serverAddr, google::protobuf::RpcController *controller);
 
     private:

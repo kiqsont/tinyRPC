@@ -12,7 +12,7 @@
             "cStandard": "gnu17",
             "cppStandard": "c++17",
             "intelliSenseMode": "linux-gcc-x64",
-            "configurationProvider": "ms-vscode.cmake-tools"
+            "configurationProvider": "ms-vscode.cpptools"
         }
     ],
     "version": 4

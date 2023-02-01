@@ -12,6 +12,7 @@ namespace tinyRpc
     public:
         void LoadConfig(const char *config_file);
         std::string Load(const std::string &key) const;
+        std::string trimString(std::string_view str) const;
         const std::unordered_map<std::string, std::string> &configMap() const
         {
             return configMap_;
@@ -19,7 +20,6 @@ namespace tinyRpc
 
     private:
         void parseConfigLine(std::string_view line);
-        std::string trimString(std::string_view str) const;
         bool commentCheck(const std::string &str) const;
 
     private:

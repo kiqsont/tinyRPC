@@ -4,6 +4,7 @@
 
 #include "tinyRpcChannel.h"
 #include "tinyRpcController.h"
+#include "ThreadPool.h"
 
 int main(int argc, char **argv)
 {
@@ -16,7 +17,16 @@ int main(int argc, char **argv)
     protoTest2::GetFriendsResponse response;
     tinyRpc::tinyRpcController controller;
 
-    stub.GetFriends(&controller, &request, &response, nullptr);
+    tinyRpc::ThreadPool pool;
+    pool.Start();
+
+    auto ptr = pool.Run(&protoTest2::FriendsServiceRPC::GetFriends, &stub, &controller, &request, &response, nullptr);
+    // stub.GetFriends(&controller, &request, &response, nullptr);
+
+    // wait
+    std::cout << "try to wait\n";
+    ptr->get();
+
     if (controller.Failed())
     {
         std::cout << controller.ErrorText() << std::endl;

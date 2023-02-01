@@ -12,3 +12,6 @@ target_link_libraries(caller2 tinyRPC protobuf)
 
 add_executable(load loadConfig.cc)
 target_link_libraries(load tinyRPC)
+
+add_executable(threadpool ThreadPoolTesting.cc)
+target_link_libraries(threadpool tinyRPC)

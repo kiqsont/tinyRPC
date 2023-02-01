@@ -1,9 +1,9 @@
 #include "Application.h"
 #include "proto/User.pb.h"
 #include "tinyRpcChannel.h"
+#include "tinyRpcController.h"
 
 #include <iostream>
-#include "tinyRpcController.h"
 
 int main(int argc, char **argv)
 {
