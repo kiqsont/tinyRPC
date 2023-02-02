@@ -36,7 +36,12 @@ void Provider::Run()
 {
     std::string ip = Application::GetInstance().GetConfig().Load("rpcserverip");
     uint16_t port = atoi(Application::GetInstance().GetConfig().Load("rpcsercerport").c_str());
-    InetAddress address(port, ip);
+    std::string serverIp = ip;
+    if (Application::GetInstance().GetConfig().Load("bindThisMachine") == "true")
+    {
+        serverIp = "0.0.0.0";
+    }
+    InetAddress address(port, serverIp);
 
     TcpServer server(&loop_, address, "RpcProvider");
     // server.setThreadNum(std::thread::hardware_concurrency());
