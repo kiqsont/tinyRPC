@@ -62,13 +62,13 @@ int main(int argc, char **argv)
     {
         if (!response2.success())
         {
-            std::cout << "rpc login failed for err code:" << response2.errinfo().code() << " ,and errmsg:" << response2.errinfo().errmsg() << std::endl;
+            std::cout << "rpc register failed for err code:" << response2.errinfo().code() << " ,and errmsg:" << response2.errinfo().errmsg() << std::endl;
         }
         else
         {
-            std::cout << "rpc login success" << std::endl;
+            std::cout << "rpc register success" << std::endl;
             std::cout << "errInfo code:" << response2.errinfo().code() << ", msg:" << response2.errinfo().errmsg() << "\n";
-            std::cout << "get new amount uid:" << response2.uid() << std::endl;
+            std::cout << "get new account uid:" << response2.uid() << std::endl;
         }
     }
 }
