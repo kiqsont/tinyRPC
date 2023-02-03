@@ -18,7 +18,8 @@
 
 ![](./%E9%A1%B9%E7%9B%AE%E4%BB%8B%E7%BB%8D/flowchart.png)
 
-运行案列
+
+运行案例
 ----
 > 安装好 zookeeper 和 protobuf    
 > 运行 autobuild.sh 构建项目    
