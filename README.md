@@ -46,3 +46,4 @@
 - Login/Register，RPC调用远程华为云服务
 
 ![](./%E9%A1%B9%E7%9B%AE%E4%BB%8B%E7%BB%8D/vm_call_huaweicloud.png)
+注意：要给配置文件加上bindThisMachine = true，不然直接绑定公网IP会bind失败
