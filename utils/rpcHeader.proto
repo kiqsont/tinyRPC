@@ -1,3 +1,4 @@
+// this file works for rpc data package
 syntax = "proto3";
 package tinyRpc;
 
