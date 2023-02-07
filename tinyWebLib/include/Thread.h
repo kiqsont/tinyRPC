@@ -16,7 +16,6 @@ public:
 
 public:
     explicit Thread(ThreadFunc func, const std::string &name = std::string());
-
     ~Thread();
 
     void start();
