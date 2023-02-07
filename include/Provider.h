@@ -3,8 +3,8 @@
 
 #include "EventLoop.h"
 #include "TcpConnection.h"
-#include "Buffer.h"
 #include "Timestamp.h"
+#include "Buffer.h"
 #include <google/protobuf/service.h>
 #include <unordered_map>
 
