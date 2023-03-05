@@ -42,7 +42,7 @@
 
 - Golang程序调用C++RPC服务
 
-![](./%E9%A1%B9%E7%9B%AE%E4%BB%8B%E7%BB%8D/.png)
+![](./%E9%A1%B9%E7%9B%AE%E4%BB%8B%E7%BB%8D/golangRPC.png)
 
 - ThreadPool使用实例
 
